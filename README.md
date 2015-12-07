@@ -18,8 +18,10 @@ knife bootstrap 192.168.0.102 -N testing8 -x sergiy -P 837611 --sudo --use-sudo-
 ```
 export EDITOR=vim
 knife node edit testing8
-    "recipe[apt]",
-    "recipe[tomcat]"
+  "run_list": [
+  "recipe[apt]",
+  "recipe[tomcat]"
+]
 ```
 
 5) Run 'sudo chef-client' on the clent machine
