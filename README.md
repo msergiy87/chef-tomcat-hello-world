@@ -25,3 +25,8 @@ knife node edit testing8
 ```
 
 5) Run 'sudo chef-client' on the clent machine
+
+6) Open in browser
+```
+http://192.168.0.102:8080/hello/sayhello
+```
