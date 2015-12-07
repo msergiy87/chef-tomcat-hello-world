@@ -24,7 +24,10 @@ knife node edit testing8
 ]
 ```
 
-5) Run 'sudo chef-client' on the clent machine
+5) Run on the clent machine
+```
+sudo chef-client
+```
 
 6) Open in browser
 ```
