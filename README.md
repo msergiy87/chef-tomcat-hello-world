@@ -11,7 +11,7 @@ knife cookbook site install apt 2.9.2
 ```
 knife cookbook upload -a
 cd ~/Desktop/chef/chef-repo
-knife bootstrap 192.168.0.102 -N testing8 -x sergiy -P 837611 --sudo --use-sudo-password
+knife bootstrap 192.168.0.102 -N testing8 -x sergiy -P YOUR_PASS --sudo --use-sudo-password
 ```
 
 4) Edit Run List
