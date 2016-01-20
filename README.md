@@ -1,4 +1,7 @@
 # chef-tomcat-hello-world
+
+Ubuntu Server 14.04 support
+
 1) Create chef-repo on your chef Workstation and put files and dirs to the 'chef-repo/cookbooks/tomcat' directory
 
 2) Add 'apt' cookbook
