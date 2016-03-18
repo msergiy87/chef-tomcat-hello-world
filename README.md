@@ -1,6 +1,12 @@
 # chef-tomcat-hello-world
 
-Ubuntu Server 14.04 support
+Distros tested
+------------
+
+Currently, this is only tested on Ubuntu 14.04. It should theoretically work on older versions of Ubuntu or Debian based systems.
+
+Usage
+------------
 
 1) Create chef-repo on your chef Workstation and put files and dirs to the 'chef-repo/cookbooks/tomcat' directory
 
